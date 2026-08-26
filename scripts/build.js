@@ -67,7 +67,7 @@ function loadLanguageTokens(languagesDir) {
 }
 
 function build() {
-    console.log('Building Tomorrow Night Rusty theme...\n');
+    console.log('Building rusted theme...\n');
 
     const srcDir = path.join(__dirname, '..', 'src');
     const palette = loadJSON(path.join(srcDir, 'palette.json'));
