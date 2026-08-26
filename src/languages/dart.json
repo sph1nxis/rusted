@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Dart Strings",
+        "scope": ["string.quoted.triple.dart"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Dart Types",
+        "scope": ["entity.name.type.mixin.dart", "entity.name.type.extension.dart", "support.class.widget.dart", "support.class.flutter.dart"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Dart Functions",
+        "scope": ["entity.name.function.constructor.dart"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Dart Keywords",
+        "scope": ["keyword.other.part.dart", "keyword.other.library.dart", "keyword.other.mixin.dart", "keyword.other.factory.dart", "keyword.other.operator.dart", "keyword.other.get.dart", "keyword.other.set.dart", "keyword.other.dynamic.dart", "keyword.other.Never.dart", "keyword.other.Future.dart", "keyword.other.Stream.dart", "keyword.other.rethrow.dart", "keyword.other.assert.dart"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Dart Modifiers",
+        "scope": ["keyword.other.abstract.dart", "keyword.other.sealed.dart", "keyword.other.base.dart", "keyword.other.interface.dart", "keyword.other.final.dart", "keyword.other.required.dart", "keyword.other.late.dart", "keyword.other.const.dart", "keyword.other.static.dart", "keyword.other.covariant.dart"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Dart Async",
+        "scope": ["keyword.other.async.dart", "keyword.other.await.dart", "keyword.other.yield.dart", "keyword.other.sync.dart"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Dart Self",
+        "scope": ["variable.language.this.dart", "variable.language.super.dart", "keyword.other.this.dart", "keyword.other.super.dart"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Dart Enum",
+        "scope": ["variable.other.enummember.dart"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    }
+]
+

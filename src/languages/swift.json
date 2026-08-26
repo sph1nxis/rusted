@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Swift Strings",
+        "scope": ["string.quoted.multiline.swift", "string.quoted.triple.swift"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Swift Interpolation",
+        "scope": ["meta.interpolation.swift", "punctuation.section.interpolation.swift"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Swift Types",
+        "scope": ["entity.name.type.protocol.swift", "storage.type.protocol.swift", "entity.name.type.extension.swift", "meta.type.swift"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Swift Built-in Types",
+        "scope": ["storage.type.optional.swift", "storage.type.array.swift", "storage.type.dictionary.swift", "storage.type.tuple.swift", "storage.type.closure.swift"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Swift Keywords",
+        "scope": [
+            "keyword.declaration.let.swift", "keyword.declaration.var.swift", "keyword.declaration.func.swift",
+            "keyword.declaration.class.swift", "keyword.declaration.struct.swift", "keyword.declaration.enum.swift",
+            "keyword.declaration.protocol.swift", "keyword.declaration.extension.swift", "keyword.declaration.actor.swift",
+            "keyword.other.guard.swift", "keyword.other.defer.swift", "keyword.other.fallthrough.swift",
+            "keyword.other.throws.swift", "keyword.other.rethrows.swift", "keyword.other.associatedtype.swift",
+            "keyword.other.typealias.swift", "keyword.other.init.swift", "keyword.other.deinit.swift"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Swift Modifiers",
+        "scope": [
+            "keyword.other.lazy.swift", "keyword.other.weak.swift", "keyword.other.unowned.swift",
+            "keyword.other.mutating.swift", "keyword.other.nonmutating.swift", "keyword.other.indirect.swift",
+            "keyword.other.final.swift", "keyword.other.dynamic.swift", "keyword.other.public.swift",
+            "keyword.other.private.swift", "keyword.other.internal.swift", "keyword.other.open.swift",
+            "keyword.other.fileprivate.swift", "keyword.other.required.swift", "keyword.other.optional.swift",
+            "keyword.other.convenience.swift"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Swift Async",
+        "scope": [
+            "keyword.control.async.swift", "keyword.control.await.swift",
+            "keyword.other.async.swift", "keyword.other.await.swift", "keyword.other.actor.swift"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Swift Functions",
+        "scope": ["entity.name.function.init.swift", "entity.name.function.deinit.swift"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Swift Self",
+        "scope": ["keyword.other.self.swift", "keyword.other.Self.swift", "keyword.other.super.swift"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Swift Enum Members",
+        "scope": ["variable.other.enummember.swift"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Swift Numbers",
+        "scope": ["constant.numeric.integer.swift", "constant.numeric.float.swift", "constant.numeric.hex.swift", "constant.numeric.octal.swift"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Swift Constants",
+        "scope": ["constant.language.boolean.swift", "constant.language.nil.swift"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Swift Escape",
+        "scope": ["constant.character.escape.swift"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    }
+]
+

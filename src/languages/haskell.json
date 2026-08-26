@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Haskell Types",
+        "scope": ["entity.name.tag.type.haskell", "support.constructor.haskell", "punctuation.definition.type.haskell", "punctuation.context.haskell"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Haskell Functions",
+        "scope": ["entity.name.function.infix.haskell", "support.function.prelude.haskell"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Haskell Keywords",
+        "scope": ["keyword.other.module.haskell", "keyword.other.qualified.haskell", "keyword.other.data.haskell", "keyword.other.newtype.haskell", "keyword.other.class.haskell", "keyword.other.instance.haskell", "keyword.other.deriving.haskell", "keyword.other.infixl.haskell", "keyword.other.infixr.haskell", "keyword.other.infix.haskell", "keyword.other.family.haskell", "keyword.other.role.haskell", "keyword.other.pattern.haskell", "keyword.other.stock.haskell", "keyword.other.anyclass.haskell", "keyword.other.via.haskell"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Haskell Operators",
+        "scope": ["punctuation.arrow.haskell"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Haskell Constants",
+        "scope": ["support.constant.prelude.haskell"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Haskell Enum",
+        "scope": ["variable.other.enummember.haskell"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    }
+]
+

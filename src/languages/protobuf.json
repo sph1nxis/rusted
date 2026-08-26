@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Protobuf Keywords",
+        "scope": ["keyword.other.syntax.proto", "keyword.other.package.proto", "keyword.other.import.proto", "keyword.other.option.proto", "keyword.other.message.proto", "keyword.other.enum.proto", "keyword.other.service.proto", "keyword.other.rpc.proto", "keyword.other.returns.proto", "keyword.other.stream.proto", "keyword.other.repeated.proto", "keyword.other.optional.proto", "keyword.other.required.proto", "keyword.other.oneof.proto", "keyword.other.map.proto", "keyword.other.reserved.proto", "keyword.other.extensions.proto", "keyword.other.extend.proto", "keyword.other.public.proto", "keyword.other.weak.proto", "keyword.other.group.proto"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Protobuf Types",
+        "scope": ["entity.name.type.message.proto", "entity.name.type.enum.proto", "entity.name.type.service.proto", "support.type.proto"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Protobuf Fields",
+        "scope": ["entity.name.field.proto"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    }
+]
+

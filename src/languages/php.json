@@ -1,0 +1,53 @@
+[
+    {
+        "name": "PHP Strings",
+        "scope": ["string.quoted.heredoc.php", "string.quoted.nowdoc.php", "meta.heredoc.php", "meta.nowdoc.php"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "PHP Variables",
+        "scope": ["variable.other.php", "meta.variable.php"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "PHP Types",
+        "scope": ["entity.name.type.trait.php", "entity.name.type.enum.php"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "PHP Functions",
+        "scope": ["entity.name.function.construct.php", "entity.name.function.destruct.php", "support.function.array.php", "support.function.string.php", "support.function.mysql.php"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "PHP Keywords",
+        "scope": ["keyword.other.namespace.php", "keyword.other.use.php", "keyword.other.trait.php", "keyword.other.match.php", "keyword.other.yield.php", "keyword.other.fn.php", "keyword.other.echo.php", "keyword.other.print.php", "keyword.other.require.php", "keyword.other.include.php", "keyword.other.list.php", "keyword.other.isset.php", "keyword.other.empty.php", "keyword.other.unset.php", "keyword.other.die.php", "keyword.other.exit.php", "keyword.other.global.php"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "PHP Modifiers",
+        "scope": ["keyword.other.abstract.php", "keyword.other.final.php", "keyword.other.static.php", "keyword.other.public.php", "keyword.other.private.php", "keyword.other.protected.php", "keyword.other.readonly.php", "keyword.other.const.php", "keyword.other.var.php"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "PHP Self",
+        "scope": ["variable.language.this.php", "variable.language.self.php", "variable.language.static.php"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "PHP Arrays",
+        "scope": ["meta.array.php", "punctuation.definition.array.php"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "PHP Enum",
+        "scope": ["constant.other.enum.php"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "PHP Annotations",
+        "scope": ["meta.decorator.php", "entity.name.type.annotation.php"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    }
+]
+

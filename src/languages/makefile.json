@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Makefile Targets",
+        "scope": ["entity.name.function.target.makefile", "meta.target.makefile", "punctuation.definition.target.makefile"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Makefile Variables",
+        "scope": ["variable.other.makefile", "meta.variable.makefile", "punctuation.definition.variable.makefile"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Makefile Keywords",
+        "scope": ["keyword.other.ifdef.makefile", "keyword.other.ifndef.makefile", "keyword.other.ifeq.makefile", "keyword.other.ifneq.makefile", "keyword.other.include.makefile", "keyword.other.export.makefile", "keyword.other.unexport.makefile", "keyword.other.override.makefile", "keyword.other.define.makefile", "keyword.other.endef.makefile", "keyword.other.vpath.makefile"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Makefile Prerequisites",
+        "scope": ["meta.scope.prerequisites.makefile", "meta.target.prerequisites.makefile"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Makefile Automatic",
+        "scope": ["variable.language.automatic.makefile"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Makefile Functions",
+        "scope": ["support.function.makefile"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    }
+]
+

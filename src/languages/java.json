@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Java Strings",
+        "scope": ["string.quoted.triple.java"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Java Types",
+        "scope": ["entity.name.type.class.java", "entity.name.type.interface.java", "entity.name.type.enum.java", "entity.name.type.record.java", "storage.type.primitive.java"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Java Functions",
+        "scope": ["entity.name.function.constructor.java", "meta.method.java"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Java Keywords",
+        "scope": ["keyword.other.package.java", "keyword.other.throws.java", "keyword.other.synchronized.java", "keyword.other.volatile.java", "keyword.other.transient.java", "keyword.other.native.java", "keyword.other.strictfp.java", "keyword.other.default.java", "keyword.other.sealed.java", "keyword.other.permits.java", "keyword.other.non-sealed.java", "keyword.other.instanceof.java"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Java Annotations",
+        "scope": ["storage.type.annotation.java", "entity.name.type.annotation.java", "punctuation.definition.annotation.java"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Java Enum",
+        "scope": ["constant.other.enum.java"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Java Documentation",
+        "scope": ["comment.block.javadoc keyword", "comment.block.javadoc storage.type", "comment.block.javadoc punctuation.definition.block.tag", "comment.block.javadoc variable.parameter", "comment.block.javadoc entity.name.type"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Java Self",
+        "scope": ["variable.language.this.java", "variable.language.super.java", "keyword.other.this.java", "keyword.other.super.java"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    }
+]
+

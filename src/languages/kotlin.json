@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Kotlin Strings",
+        "scope": ["string.quoted.triple.kotlin"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Kotlin Types",
+        "scope": ["entity.name.type.object.kotlin", "entity.name.type.data.kotlin", "entity.name.type.sealed.kotlin", "entity.name.type.enum.kotlin"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Kotlin Functions",
+        "scope": ["support.function.scope.kotlin", "support.function.extension.kotlin", "meta.function.kotlin"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Kotlin Keywords",
+        "scope": ["keyword.other.suspend.kotlin", "keyword.other.inline.kotlin", "keyword.other.operator.kotlin", "keyword.other.infix.kotlin", "keyword.other.tailrec.kotlin", "keyword.other.external.kotlin", "keyword.other.lateinit.kotlin", "keyword.other.by.kotlin", "keyword.other.when.kotlin", "keyword.other.object.kotlin", "keyword.other.companion.kotlin", "keyword.other.init.kotlin", "keyword.other.data.kotlin", "keyword.other.sealed.kotlin", "keyword.other.open.kotlin", "keyword.other.override.kotlin"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Kotlin Properties",
+        "scope": ["variable.other.property.declaration.kotlin"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Kotlin Annotations",
+        "scope": ["meta.annotation.kotlin", "entity.name.type.annotation.kotlin"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Kotlin Enum",
+        "scope": ["constant.other.enum.kotlin"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    }
+]
+

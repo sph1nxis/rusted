@@ -1,0 +1,69 @@
+{
+    "name": "rusted",
+    "displayName": "rusted",
+    "publisher": "sph1nxis",
+    "description": "A dark VS Code theme inspired by The Rust Programming Language code snippets color palette and rusty.nvim",
+    "version": "1.0.0",
+    "icon": "assets/images/icon.png",
+    "license": "MIT",
+
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+
+    "categories": [
+        "Themes"
+    ],
+
+    "keywords": [
+        "theme",
+        "dark theme",
+        "vscode theme",
+        "syntax highlighting",
+        "semantic highlighting",
+        "rust",
+        "rust theme",
+        "minimal",
+        "cpp",
+        "c",
+        "go",
+        "python",
+        "typescript"
+    ],
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sph1nxis/rusted"
+    },
+
+    "homepage": "https://github.com/sph1nxis/rusted",
+
+    "bugs": {
+        "url": "https://github.com/sph1nxis/rusted/issues"
+    },
+
+    "qna": "https://github.com/sph1nxis/rusted/issues",
+
+    "galleryBanner": {
+        "color": "#17191b",
+        "theme": "dark"
+    },
+
+    "extensionKind": ["ui"],
+
+    "scripts": {
+        "build": "node scripts/build.js",
+        "prepublish": "npm run build"
+    },
+
+    "contributes": {
+        "themes": [
+            {
+                "label": "rusted",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rusted.json"
+            }
+        ]
+    }
+}
+

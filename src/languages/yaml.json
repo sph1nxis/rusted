@@ -1,0 +1,23 @@
+[
+    {
+        "name": "YAML Anchors",
+        "scope": ["entity.other.anchor.yaml", "entity.other.alias.yaml", "punctuation.definition.anchor.yaml", "punctuation.definition.alias.yaml"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "YAML Tags",
+        "scope": ["meta.tag.yaml"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "YAML Structures",
+        "scope": ["punctuation.definition.sequence.yaml", "punctuation.definition.mapping.yaml", "meta.mapping.yaml", "meta.sequence.yaml"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "YAML Unquoted",
+        "scope": ["string.unquoted.plain.out.yaml"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    }
+]
+

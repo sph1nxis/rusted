@@ -1,0 +1,33 @@
+[
+    {
+        "name": "LaTeX Commands",
+        "scope": ["support.function.latex", "support.function.be.latex", "keyword.control.latex", "keyword.control.documentclass.latex", "keyword.control.usepackage.latex", "keyword.control.include.latex", "keyword.control.input.latex", "keyword.control.newcommand.latex", "keyword.control.renewcommand.latex", "keyword.control.providecommand.latex", "keyword.control.declaremathoperator.latex", "keyword.control.newenvironment.latex", "keyword.control.renewenvironment.latex", "keyword.control.def.latex"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "LaTeX Environments",
+        "scope": ["keyword.control.begin.latex", "keyword.control.end.latex", "meta.environment.latex", "meta.function.environment.latex", "punctuation.definition.environment.latex"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "LaTeX Math",
+        "scope": ["meta.math.latex", "support.function.math.latex", "punctuation.definition.math.latex"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "LaTeX References",
+        "scope": ["support.variable.label.latex", "support.variable.cite.latex", "support.variable.ref.latex"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "LaTeX Groups",
+        "scope": ["meta.group.brace.latex", "punctuation.definition.group.latex", "punctuation.definition.arguments.latex"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "LaTeX Document",
+        "scope": ["meta.document.latex", "meta.preamble.latex", "meta.include.latex"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    }
+]
+

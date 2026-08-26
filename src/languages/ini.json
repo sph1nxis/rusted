@@ -1,0 +1,23 @@
+[
+    {
+        "name": "INI Sections",
+        "scope": ["entity.name.section.ini", "entity.name.section.properties", "keyword.other.section.ini", "punctuation.definition.section.ini", "meta.section.ini"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "INI Keys",
+        "scope": ["entity.name.key.ini", "entity.name.key.properties", "keyword.other.key.ini", "punctuation.definition.key.ini"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "INI Separator",
+        "scope": ["punctuation.separator.key-value.ini"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "INI Comments",
+        "scope": ["comment.line.ini"],
+        "settings": { "foreground": "${palette.ui.comment}" }
+    }
+]
+

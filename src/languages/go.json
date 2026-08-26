@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Go Strings",
+        "scope": ["string.quoted.raw.go"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Go Types",
+        "scope": ["entity.name.type.interface.go", "storage.type.interface.go", "entity.name.type.exported.go", "storage.type.bool.go", "storage.type.string.go", "storage.type.int.go", "storage.type.float.go", "storage.type.byte.go", "storage.type.rune.go", "storage.type.error.go", "storage.type.complex.go"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Go Functions",
+        "scope": ["entity.name.function.exported.go", "entity.name.function.new.go"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Go Keywords",
+        "scope": ["keyword.control.defer.go", "keyword.control.panic.go", "keyword.control.recover.go", "keyword.control.goroutine.go", "keyword.control.select.go", "keyword.other.channel.go", "keyword.other.iota.go", "keyword.other.fallthrough.go", "keyword.other.range.go"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Go Built-in",
+        "scope": ["keyword.other.make.go", "keyword.other.new.go", "keyword.other.len.go", "keyword.other.cap.go", "keyword.other.append.go", "keyword.other.copy.go", "keyword.other.close.go", "keyword.other.delete.go"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Go Exported",
+        "scope": ["entity.name.variable.exported.go", "entity.name.constant.exported.go"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Go Visibility",
+        "scope": ["storage.modifier.exported.go", "storage.modifier.unexported.go"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Go Numbers",
+        "scope": ["constant.numeric.hex.go", "constant.numeric.octal.go", "constant.numeric.complex.go"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    }
+]
+

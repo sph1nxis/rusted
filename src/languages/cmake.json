@@ -1,0 +1,18 @@
+[
+    {
+        "name": "CMake Keywords",
+        "scope": ["keyword.other.if.cmake", "keyword.other.else.cmake", "keyword.other.elseif.cmake", "keyword.other.endif.cmake", "keyword.other.foreach.cmake", "keyword.other.endforeach.cmake", "keyword.other.while.cmake", "keyword.other.endwhile.cmake", "keyword.other.function.cmake", "keyword.other.endfunction.cmake", "keyword.other.macro.cmake", "keyword.other.endmacro.cmake", "keyword.other.set.cmake", "keyword.other.unset.cmake", "keyword.other.list.cmake", "keyword.other.file.cmake", "keyword.other.add_executable.cmake", "keyword.other.add_library.cmake", "keyword.other.target_link_libraries.cmake", "keyword.other.target_include_directories.cmake", "keyword.other.find_package.cmake", "keyword.other.message.cmake", "keyword.other.option.cmake", "keyword.other.project.cmake", "keyword.other.cmake_minimum_required.cmake", "keyword.other.install.cmake"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "CMake Variables",
+        "scope": ["variable.other.cmake", "meta.variable.cmake", "punctuation.definition.variable.cmake"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "CMake Generators",
+        "scope": ["support.constant.generator.cmake"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    }
+]
+

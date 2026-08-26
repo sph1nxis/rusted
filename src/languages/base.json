@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Comments",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "${palette.ui.comment}" }
+    },
+    {
+        "name": "Strings",
+        "scope": ["string", "string.quoted", "string.template", "punctuation.definition.string"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Numbers",
+        "scope": ["constant.numeric"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Language Constants",
+        "scope": ["constant.language", "constant.language.boolean", "constant.language.null", "constant.language.undefined", "constant.language.nil", "constant.language.none"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Escape",
+        "scope": ["constant.character.escape"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Regex",
+        "scope": ["string.regexp"],
+        "settings": { "foreground": "${palette.muted.red}" }
+    },
+    {
+        "name": "Keywords",
+        "scope": ["keyword", "keyword.control", "keyword.operator"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Storage",
+        "scope": ["storage", "storage.type", "storage.modifier"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Variables",
+        "scope": ["variable", "variable.other", "support.variable"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Functions",
+        "scope": ["entity.name.function", "support.function", "meta.function-call", "variable.function"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Types",
+        "scope": ["entity.name.type", "support.type", "support.class", "meta.type.identifier", "meta.return.type", "entity.other.inherited-class"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Punctuation",
+        "scope": ["punctuation", "meta.brace", "meta.delimiter", "punctuation.terminator", "punctuation.separator", "punctuation.accessor"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Decorators/Annotations",
+        "scope": ["entity.name.function.decorator", "meta.decorator", "meta.annotation", "punctuation.definition.decorator", "storage.type.annotation"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Self/This",
+        "scope": ["variable.language.self", "variable.language.this", "variable.language.super"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Parameters",
+        "scope": ["variable.parameter", "meta.parameter"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Properties",
+        "scope": ["variable.other.property", "variable.object.property", "meta.object-literal.key", "support.variable.property"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Namespaces/Modules",
+        "scope": ["entity.name.namespace", "entity.name.module", "entity.name.package", "support.module"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Imports",
+        "scope": ["keyword.control.import", "keyword.control.export", "entity.name.import", "meta.import"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "HTML/XML Tags",
+        "scope": ["entity.name.tag", "meta.tag", "punctuation.definition.tag"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "HTML/XML Attributes",
+        "scope": ["entity.other.attribute-name"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "CSS Property Names",
+        "scope": ["support.type.property-name"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "CSS Property Values",
+        "scope": ["support.constant.property-value"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "CSS Selectors",
+        "scope": ["entity.other.attribute-name.class", "entity.other.attribute-name.id", "entity.other.attribute-name.pseudo-class", "entity.other.attribute-name.pseudo-element"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Diff",
+        "scope": ["markup.inserted", "punctuation.definition.inserted"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Diff Deleted",
+        "scope": ["markup.deleted", "punctuation.definition.deleted"],
+        "settings": { "foreground": "${palette.accent.red}" }
+    },
+    {
+        "name": "Diff Changed",
+        "scope": ["markup.changed", "punctuation.definition.changed"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Diff Header",
+        "scope": ["meta.diff.header", "punctuation.definition.diff.header"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+    {
+        "name": "Embedded",
+        "scope": ["meta.embedded", "source.embedded", "punctuation.section.embedded"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    }
+]
+

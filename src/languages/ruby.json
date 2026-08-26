@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ruby Strings",
+        "scope": ["string.quoted.heredoc.ruby", "punctuation.definition.string.heredoc.ruby"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Ruby Symbols",
+        "scope": ["constant.other.symbol.ruby", "constant.other.symbol.hashkey.ruby", "punctuation.definition.symbol.ruby"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Ruby Variables",
+        "scope": ["variable.other.constant.ruby", "variable.other.block.ruby"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Ruby Keywords",
+        "scope": ["keyword.control.unless.ruby", "keyword.control.until.ruby", "keyword.control.rescue.ruby", "keyword.control.ensure.ruby", "keyword.control.retry.ruby", "keyword.control.redo.ruby", "keyword.other.defined.ruby", "keyword.other.undef.ruby", "keyword.other.alias.ruby", "keyword.other.BEGIN.ruby", "keyword.other.END.ruby"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Ruby Functions",
+        "scope": ["entity.name.function.initialize.ruby"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Ruby Blocks",
+        "scope": ["meta.block.ruby", "punctuation.section.function.ruby"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Ruby Embedded",
+        "scope": ["meta.embedded.line.ruby", "punctuation.section.embedded.ruby"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    }
+]
+

@@ -1,0 +1,13 @@
+[
+    {
+        "name": "TOML Sections",
+        "scope": ["punctuation.definition.table.toml", "punctuation.definition.array.table.toml", "meta.table.toml", "meta.array.table.toml"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "TOML Dates",
+        "scope": ["constant.other.date.toml", "constant.other.time.toml"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    }
+]
+

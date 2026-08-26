@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Regex Groups",
+        "scope": ["string.regexp.group", "string.regexp.named-group", "string.regexp.non-capturing-group", "punctuation.definition.group.regexp"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Regex Character Classes",
+        "scope": ["string.regexp.character-class", "string.regexp.character-class.range", "string.regexp.character-class.set", "punctuation.definition.character-class.regexp"],
+        "settings": { "foreground": "${palette.muted.red}" }
+    },
+    {
+        "name": "Regex Quantifiers",
+        "scope": ["string.regexp.quantifier", "keyword.control.quantifier.regexp", "keyword.control.quantifier.greedy", "keyword.control.quantifier.lazy", "keyword.control.quantifier.possessive"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Regex Anchors",
+        "scope": ["string.regexp.anchor", "keyword.control.anchor.regexp", "keyword.control.anchor.start", "keyword.control.anchor.end", "keyword.control.anchor.word-boundary"],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+    {
+        "name": "Regex Lookahead",
+        "scope": ["string.regexp.lookahead", "string.regexp.lookbehind"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Regex Backreference",
+        "scope": ["string.regexp.backreference"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Regex Modifiers",
+        "scope": ["string.regexp.modifier"],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    }
+]
+

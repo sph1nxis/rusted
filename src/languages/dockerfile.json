@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Dockerfile Instructions",
+        "scope": ["keyword.other.from.dockerfile", "keyword.other.run.dockerfile", "keyword.other.cmd.dockerfile", "keyword.other.label.dockerfile", "keyword.other.expose.dockerfile", "keyword.other.env.dockerfile", "keyword.other.add.dockerfile", "keyword.other.copy.dockerfile", "keyword.other.entrypoint.dockerfile", "keyword.other.volume.dockerfile", "keyword.other.user.dockerfile", "keyword.other.workdir.dockerfile", "keyword.other.arg.dockerfile", "keyword.other.onbuild.dockerfile", "keyword.other.stopsignal.dockerfile", "keyword.other.healthcheck.dockerfile", "keyword.other.shell.dockerfile"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Dockerfile Variables",
+        "scope": ["punctuation.definition.variable.dockerfile"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    }
+]
+

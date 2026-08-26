@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Lua Strings",
+        "scope": ["string.quoted.long.lua"],
+        "settings": { "foreground": "${palette.accent.green}" }
+    },
+    {
+        "name": "Lua Tables",
+        "scope": ["meta.table.lua", "punctuation.separator.table.lua"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Lua Keywords",
+        "scope": ["keyword.control.repeat.lua", "keyword.control.until.lua", "keyword.control.local.lua", "keyword.control.goto.lua", "keyword.control.nil.lua"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Lua Self",
+        "scope": ["variable.language.self.lua"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    }
+]
+

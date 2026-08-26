@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Terraform Keywords",
+        "scope": ["keyword.other.resource.terraform", "keyword.other.data.terraform", "keyword.other.provider.terraform", "keyword.other.variable.terraform", "keyword.other.output.terraform", "keyword.other.locals.terraform", "keyword.other.module.terraform", "keyword.other.terraform.terraform", "keyword.other.required_providers.terraform", "keyword.other.backend.terraform"],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+    {
+        "name": "Terraform Types",
+        "scope": ["entity.name.type.resource.terraform", "entity.name.type.data.terraform", "entity.name.type.provider.terraform", "entity.name.type.variable.terraform", "entity.name.type.module.terraform", "support.type.terraform"],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+    {
+        "name": "Terraform Variables",
+        "scope": ["variable.other.block.terraform", "variable.other.attribute.terraform"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+    {
+        "name": "Terraform Functions",
+        "scope": ["support.function.terraform"],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+    {
+        "name": "Terraform Blocks",
+        "scope": ["meta.block.terraform", "meta.attribute.terraform", "punctuation.definition.block.terraform"],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    }
+]
+
