@@ -97,7 +97,7 @@ function build() {
     };
 
     const theme = {
-        name: 'Tomorrow Night Rusty',
+        name: 'rusted',
         type: 'dark',
         semanticHighlighting: true,
         colors: allColors,
@@ -110,7 +110,7 @@ function build() {
         fs.mkdirSync(themesDir, { recursive: true });
     }
 
-    const themePath = path.join(themesDir, 'tomorrow-night-rusty.json');
+    const themePath = path.join(themesDir, 'rusted.json');
     fs.writeFileSync(themePath, JSON.stringify(theme, null, 2));
 
     console.log(`\nTheme built successfully!`);
