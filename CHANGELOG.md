@@ -8,3 +8,16 @@ Initial release of the theme.
 
 - Theme files
 
+## [1.0.1]
+
+### Added
+
+- Palette image
+
+- Palette description in README
+
+
+## Changed
+
+- Extension icon
+
