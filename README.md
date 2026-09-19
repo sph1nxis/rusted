@@ -43,6 +43,59 @@ Add this line to your `settings.json`:
 
 </details>
 
+## Color palette
+
+<details>
+<summary>Palette</summary>
+
+![Palette Image](assets/images/palette.png)
+
+| Category | Name | Color | Usage |
+|:---|:---|:---:|:---|
+| **Background** | `primary` | `#17191b` | Main editor and workspace background |
+| | `secondary` | `#111214` | Sidebars, panels, menus, widgets and other secondary UI |
+| | `tertiary` | `#161719` | Active/focused surfaces inside the workspace |
+| | `hover` | `#1C1D1F` | Hover state for interactive UI elements |
+| **Foreground** | `primary` | `#C5C8C6` | Main text |
+| | `secondary` | `#63666E` | Secondary and subdued text |
+| | `white` | `#FFFFFF` | High-emphasis text |
+| | `bright` | `#F2F2F2` | Bright/high-contrast text |
+| **UI** | `comment` | `#969896` | Comments and subdued annotations |
+| | `lineHighlight` | `#373B4180` | Current line highlight |
+| | `selection` | `#373B41C0` | Active text selection |
+| | `inactiveSelection` | `#282A2E50` | Inactive text selection |
+| | `indentGuide` | `#373B41` | Borders and indentation guides |
+| | `whitespace` | `#4D5057` | Whitespace indicators |
+| | `listActiveSelection` | `#282A2E` | Active list/menu selection |
+| | `listInactiveSelection` | `#282A2E` | Inactive list/menu selection |
+| | `transparent` | `#00000000` | Transparent UI elements |
+| **Accent** | `red` | `#CC6666` | |
+| | `orange` | `#DE935F` | |
+| | `yellow` | `#F0C674` | |
+| | `green` | `#B5BD68` | |
+| | `cyan` | `#8ABEB7` | |
+| | `blue` | `#81A2BE` | |
+| | `purple` | `#B294BB` | |
+| | `brown` | `#A3685A` | |
+| **Muted** | `red` | `#FF9DA4` | |
+| | `orange` | `#FFC58F` | |
+| | `yellow` | `#FFE2A0` | |
+| | `green` | `#D1DA8E` | |
+| | `cyan` | `#A5D6CF` | |
+| | `blue` | `#A3C2DC` | |
+| | `purple` | `#CEB7D7` | |
+| | `brown` | `#C08476` | |
+| **Bright** | `red` | `#FF5B69` | |
+| | `orange` | `#F5A962` | |
+| | `yellow` | `#EAB85B` | |
+| | `green` | `#AAB257` | |
+| | `cyan` | `#7BB2AA` | |
+| | `blue` | `#7094B2` | |
+| | `purple` | `#A383AD` | |
+| | `brown` | `#8F5C52` | |
+
+</details>
+
 ## Installation
 
 <details>
