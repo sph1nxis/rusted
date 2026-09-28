@@ -16,8 +16,7 @@ Initial release of the theme.
 
 - Palette description in README
 
-
-## Changed
+### Changed
 
 - Extension icon
 
