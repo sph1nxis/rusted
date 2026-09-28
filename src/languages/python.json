@@ -1,0 +1,246 @@
+[
+    {
+        "name": "Python Function Calls",
+        "scope": [
+            "meta.function-call.python",
+            "meta.function-call.generic.python"
+        ],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+
+    {
+        "name": "Python Builtin Functions",
+        "scope": [
+            "support.function.builtin.python"
+        ],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+
+    {
+        "name": "Python Magic Functions",
+        "scope": [
+            "support.function.magic.python"
+        ],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+
+    {
+        "name": "Python Builtin Types",
+        "scope": [
+            "support.type.python",
+            "support.type.metaclass.python"
+        ],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+
+    {
+        "name": "Python Exceptions",
+        "scope": [
+            "support.type.exception.python"
+        ],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+
+    {
+        "name": "Python Function Definitions",
+        "scope": [
+            "storage.type.function.python",
+            "storage.type.function.async.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Class Definitions",
+        "scope": [
+            "storage.type.class.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Function Names",
+        "scope": [
+            "entity.name.function.python"
+        ],
+        "settings": { "foreground": "${palette.accent.cyan}" }
+    },
+
+    {
+        "name": "Python Class Names",
+        "scope": [
+            "entity.name.class.python"
+        ],
+        "settings": { "foreground": "${palette.accent.orange}" }
+    },
+
+    {
+        "name": "Python Parameters",
+        "scope": [
+            "variable.parameter.function.language.python",
+            "variable.parameter.function-call.python",
+            "variable.parameter.class.python"
+        ],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+
+    {
+        "name": "Python Self",
+        "scope": [
+            "variable.language.special.self.python",
+            "variable.parameter.function.language.special.self.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Cls",
+        "scope": [
+            "variable.language.special.cls.python",
+            "variable.parameter.function.language.special.cls.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Magic Variables",
+        "scope": [
+            "support.variable.magic.python"
+        ],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+
+    {
+        "name": "Python Constants",
+        "scope": [
+            "constant.language.python"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Decorators",
+        "scope": [
+            "entity.name.function.decorator.python",
+            "punctuation.definition.decorator.python",
+            "support.token.decorator.python"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Lambda",
+        "scope": [
+            "storage.type.function.lambda.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Await/Yield",
+        "scope": [
+            "keyword.control.flow.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python Operators",
+        "scope": [
+            "keyword.operator.logical.python",
+            "keyword.operator.arithmetic.python",
+            "keyword.operator.comparison.python",
+            "keyword.operator.assignment.python",
+            "keyword.operator.unpacking.python",
+            "keyword.operator.positional.parameter.python"
+        ],
+        "settings": { "foreground": "${palette.accent.purple}" }
+    },
+
+    {
+        "name": "Python String Formatting",
+        "scope": [
+            "constant.character.format.placeholder.other.python",
+            "string.interpolated.python"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Escape Sequences",
+        "scope": [
+            "constant.character.escape.python",
+            "constant.character.escape"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Number Types",
+        "scope": [
+            "storage.type.number.python",
+            "storage.type.imaginary.number.python"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Import Names",
+        "scope": [
+            "entity.name.import.python",
+            "entity.name.namespace.python"
+        ],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+
+    {
+        "name": "Python Module Names",
+        "scope": [
+            "support.module.python",
+            "entity.name.module.python"
+        ],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+
+    {
+        "name": "Python Member Access",
+        "scope": [
+            "meta.member.access.python"
+        ],
+        "settings": { "foreground": "${palette.accent.blue}" }
+    },
+
+    {
+        "name": "Python Punctuation",
+        "scope": [
+            "punctuation.separator.period.python",
+            "punctuation.separator.arguments.python",
+            "punctuation.separator.parameters.python",
+            "punctuation.separator.element.python",
+            "punctuation.separator.colon.python",
+            "punctuation.separator.dict.python",
+            "punctuation.separator.slice.python",
+            "punctuation.separator.inheritance.python"
+        ],
+        "settings": { "foreground": "${palette.fg.primary}" }
+    },
+
+    {
+        "name": "Python String Prefix",
+        "scope": [
+            "storage.type.string.python"
+        ],
+        "settings": { "foreground": "${palette.accent.yellow}" }
+    },
+
+    {
+        "name": "Python Docstrings",
+        "scope": [
+            "string.quoted.docstring.single.python",
+            "string.quoted.docstring.multi.python",
+            "string.quoted.docstring.raw.single.python",
+            "string.quoted.docstring.raw.multi.python"
+        ],
+        "settings": { "foreground": "${palette.ui.comment}" }
+    }
+]
