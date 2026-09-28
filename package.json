@@ -60,6 +60,7 @@
 
     "scripts": {
         "build": "node scripts/build.js",
+        "watch": "node scripts/watch.js",
         "prepublish": "npm run build"
     },
 
