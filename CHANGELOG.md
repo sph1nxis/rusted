@@ -20,3 +20,17 @@ Initial release of the theme.
 
 - Extension icon
 
+## [1.1.0]
+
+### Added
+
+- Improved Python support
+
+- scripts/watch.js (for testing using VS Code Extension Development Host)
+
+### Fixed
+
+- Palette image
+
+- CHANGELOG.md
+
