@@ -7,4 +7,4 @@ scripts/**
 src/**
 tsconfig.json
 *.vsix
-
+assets/code-snippets/**
