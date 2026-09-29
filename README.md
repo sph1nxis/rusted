@@ -116,17 +116,16 @@ Then:
 
 ### Build from source
 
-Dependencies: Node.js, VSCE
+Dependencies: Python 3, VSCE
 
 ```bash
 git clone https://github.com/sph1nxis/rusted
 cd rusted
-npm install
-npm run build
+python3 scripts/build.py
 vsce package
 ```
 
-`.vsix` file will be generated.
+The `.vsix` file will be generated in the project root.
 
 </details>
 
