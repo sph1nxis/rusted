@@ -28,6 +28,10 @@ Initial release of the theme.
 
 - scripts/watch.js (for testing using VS Code Extension Development Host)
 
+### Changed
+
+- Preview screenshots
+
 ### Fixed
 
 - Palette image
