@@ -60,8 +60,7 @@
 
     "scripts": {
         "build": "python3 scripts/build.py",
-        "watch": "node scripts/watch.js",
-        "prepublish": "npm run build"
+        "watch": "python3 scripts/watch.py"
     },
 
     "contributes": {
