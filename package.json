@@ -59,7 +59,7 @@
     "extensionKind": ["ui"],
 
     "scripts": {
-        "build": "node scripts/build.js",
+        "build": "python3 scripts/build.py",
         "watch": "node scripts/watch.js",
         "prepublish": "npm run build"
     },
