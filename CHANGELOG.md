@@ -38,3 +38,19 @@ Initial release of the theme.
 
 - CHANGELOG.md
 
+## [1.2.0]
+
+### Added
+
+- Created development guide (docs/DEVELOPMENT.md)
+
+- Added .vscode/launch.json (defines launch configuration for the Extension Development Host)
+
+### Changed
+
+- Migrated build and watch scripts to Python 3 from Node JS
+
+- Changed keywords in package.json
+
+- Updated README.md
+
