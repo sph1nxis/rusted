@@ -5,7 +5,6 @@ This document describes the structure of the `rusted` project, the theme generat
 ## Project structure
 
 ```text
-rusted/
 ├── assets
 │   ├── code-snippets
 │   │   ├── go
@@ -33,13 +32,14 @@ rusted/
 ├── scripts
 │   ├── build.py
 │   └── watch.py
-└── src
-    ├── languages/
-    ├── palette.json
-    ├── semantic-tokens.json
-    ├── terminal-colors.json
-    └── workbench-colors.json
-
+├── src
+│   ├── languages/
+│   ├── palette.json
+│   ├── semantic-tokens.json
+│   ├── terminal-colors.json
+│   └── workbench-colors.json
+└── themes
+    └── rusted.json
 ```
 
 ### `assets/`
