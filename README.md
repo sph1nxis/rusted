@@ -135,6 +135,10 @@ This project is not affiliated with the Rust project or the rusty.nvim theme.
 
 `rusted` is the successor to [Tomorrow Night Rusty](https://github.com/sph1nxis/tomorrow-night-rusty), the original version of the theme. The project was renamed and republished under its current name while continuing development of the same theme.
 
+## Development
+
+See [Development Guide](docs/DEVELOPMENT.md) for information about the project structure, theme generation, and development workflow.
+
 ## Feedback
 
 Bug reports, suggestions, and pull requests are welcome: [issue tracker](https://github.com/sph1nxis/rusted/issues)
