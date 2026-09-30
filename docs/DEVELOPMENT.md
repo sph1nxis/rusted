@@ -1,34 +1,14 @@
-# Development Guide
+# Development guide
 
 This document describes the structure of the `rusted` project, the theme generation process, and the development workflow.
 
 ## Project structure
 
 ```text
+rusted/
 ├── assets
-│   ├── code-snippets
-│   │   ├── go
-│   │   │   └── preview.go
-│   │   ├── main.rs
-│   │   ├── preview.c
-│   │   ├── preview.cpp
-│   │   ├── preview.py
-│   │   └── preview.ts
-│   └── images
-│       ├── icon.png
-│       ├── palette.png
-│       ├── preview-c.png
-│       ├── preview-cpp.png
-│       ├── preview-go.png
-│       ├── preview-python.png
-│       ├── preview-rust.png
-│       └── preview-typescript.png
-├── CHANGELOG.md
-├── docs
-│   └── DEVELOPMENT.md
-├── LICENSE
-├── package.json
-├── README.md
+│   ├── code-snippets/
+│   └── images/
 ├── scripts
 │   ├── build.py
 │   └── watch.py
@@ -38,8 +18,9 @@ This document describes the structure of the `rusted` project, the theme generat
 │   ├── semantic-tokens.json
 │   ├── terminal-colors.json
 │   └── workbench-colors.json
-└── themes
-    └── rusted.json
+├── .vscode
+│   └── launch.json
+...
 ```
 
 ### `assets/`
@@ -55,46 +36,6 @@ The snippets are included in the repository so that the preview examples can be 
 #### `assets/images/`
 
 Contains the theme icon, palette preview, and screenshots for supported languages.
-
-### `.vscode/`
-
-Contains VS Code workspace configuration used for extension development.
-
-#### `.vscode/launch.json`
-
-Defines the launch configuration for the **Extension Development Host**, allowing the theme extension to be launched directly from the project with `F5`.
-
-### `src/`
-
-Contains the source files used to generate the final VS Code theme.
-
-#### `src/palette.json`
-
-Defines the color palette used throughout the theme.
-
-Theme components reference palette colors instead of defining the same colors repeatedly. This makes it possible to change a palette color in one place and propagate the change to the generated theme.
-
-#### `src/languages/`
-
-Contains language-specific syntax highlighting definitions.
-
-Each file contains token rules for a particular language. The directory is intentionally kept separate from the main theme definition so that language support can be developed and maintained independently.
-
-`base.json` contains common token rules shared between languages.
-
-#### `src/semantic-tokens.json`
-
-Contains semantic token color definitions.
-
-These definitions are used together with VS Code's semantic highlighting system to provide more precise highlighting where a language server supplies semantic information.
-
-#### `src/terminal-colors.json`
-
-Defines colors used by the integrated terminal.
-
-#### `src/workbench-colors.json`
-
-Defines colors for the VS Code workbench UI, including editors, sidebars, panels, menus, and other interface elements.
 
 ### `scripts/`
 
@@ -117,6 +58,46 @@ The generated file is the theme file referenced by `package.json`.
 Runs the build process automatically when source files change.
 
 The watcher monitors the relevant project files and triggers a new build after changes are detected. It uses only the Python standard library and does not require additional Python packages.
+
+### `src/`
+
+Contains the source files used to generate the final VS Code theme.
+
+#### `src/languages/`
+
+Contains language-specific syntax highlighting definitions.
+
+Each file contains token rules for a particular language. The directory is intentionally kept separate from the main theme definition so that language support can be developed and maintained independently.
+
+`base.json` contains common token rules shared between languages.
+
+#### `src/palette.json`
+
+Defines the color palette used throughout the theme.
+
+Theme components reference palette colors instead of defining the same colors repeatedly. This makes it possible to change a palette color in one place and propagate the change to the generated theme.
+
+#### `src/semantic-tokens.json`
+
+Contains semantic token color definitions.
+
+These definitions are used together with VS Code's semantic highlighting system to provide more precise highlighting where a language server supplies semantic information.
+
+#### `src/terminal-colors.json`
+
+Defines colors used by the integrated terminal.
+
+#### `src/workbench-colors.json`
+
+Defines colors for the VS Code workbench UI, including editors, sidebars, panels, menus, and other interface elements.
+
+### `.vscode/`
+
+Contains VS Code workspace configuration used for extension development.
+
+#### `.vscode/launch.json`
+
+Defines the launch configuration for the **Extension Development Host**, allowing the theme extension to be launched directly from the project with `F5`.
 
 ## Theme generation
 

@@ -137,7 +137,7 @@ This project is not affiliated with the Rust project or the rusty.nvim theme.
 
 ## Development
 
-See [Development Guide](docs/DEVELOPMENT.md) for information about the project structure, theme generation, and development workflow.
+See [Development guide](docs/DEVELOPMENT.md) for information about the project structure, theme generation, and development workflow.
 
 ## Feedback
 
