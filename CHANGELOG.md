@@ -56,3 +56,11 @@ Initial release of the theme.
 
 - Updated `README.md`
 
+## [1.3.0]
+
+### Changed
+
+- Reworked accent colors and updated screenshots
+
+- Shortened description in package.json
+

@@ -3,7 +3,7 @@
     "displayName": "rusted",
     "publisher": "sph1nxis",
     "description": "A dark theme inspired by the color palette of The Rust Programming Language code snippets and rusty.nvim",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "icon": "assets/images/icon.png",
     "license": "MIT",
 
