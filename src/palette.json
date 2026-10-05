@@ -11,15 +11,15 @@
         "white":"#FFFFFF",
         "bright":"#F2F2F2"
     },
-    "accent":{
-        "red":"#D46A6A",
-        "orange":"#E89B63",
-        "yellow":"#F2CD7A",
-        "green":"#A8C46B",
-        "cyan":"#8FCFC8",
-        "blue":"#88B4D6",
-        "purple":"#C29BC9",
-        "brown":"#B07062"
+    "accent": {
+        "red": "#CE6464",
+        "orange": "#E2955D",
+        "yellow": "#ECC774",
+        "green": "#A2BE65",
+        "cyan": "#89C9C2",
+        "blue": "#82AED0",
+        "purple": "#BC95C3",
+        "brown": "#AA6A5C"
     },
     "muted":{
         "red":"#FF9DA4",
