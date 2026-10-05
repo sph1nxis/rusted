@@ -64,3 +64,17 @@ Initial release of the theme.
 
 - Shortened description in package.json
 
+## [1.3.1]
+
+### Changed
+
+- Reworked colors to match accent colors
+
+- Removed palette from README
+
+- Updated screenshots
+
+### Fixed
+
+- Refined accent colors to reduce their brightness
+
