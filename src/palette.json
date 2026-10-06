@@ -5,14 +5,12 @@
         "tertiary": "#161719",
         "hover": "#1C1D1F"
     },
-
     "fg": {
         "primary": "#C5C8C6",
         "secondary": "#63666E",
         "white": "#FFFFFF",
         "bright": "#F2F2F2"
     },
-
     "accent": {
         "red": "#CE6464",
         "orange": "#E2955D",
@@ -23,7 +21,6 @@
         "purple": "#BC95C3",
         "brown": "#AA6A5C"
     },
-
     "muted": {
         "red": "#FF9D9D",
         "orange": "#FFBE8F",
@@ -34,7 +31,6 @@
         "purple": "#D2B7D7",
         "brown": "#C08376"
     },
-
     "bright": {
         "red": "#FF5B5B",
         "orange": "#F5A062",
@@ -45,7 +41,6 @@
         "purple": "#A783AD",
         "brown": "#8F5D52"
     },
-
     "ui": {
         "comment": "#969896",
         "lineHighlight": "#373B4180",
