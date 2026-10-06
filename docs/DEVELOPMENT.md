@@ -35,7 +35,7 @@ The snippets are included in the repository so that the preview examples can be 
 
 #### `assets/images/`
 
-Contains the theme icon, palette preview, and screenshots for supported languages.
+Contains the theme icon and screenshots for some supported languages.
 
 ### `scripts/`
 
